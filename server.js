@@ -1,5 +1,9 @@
 const http = require('http')
 
+const user = MIUSER
+
+const password = MICLAVE
+
 const port = 80
 
 const server = http.createServer((request, response) => {
